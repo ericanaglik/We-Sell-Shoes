@@ -481,3 +481,149 @@ testimonials
 .dot:hover {
   background: black;
 }
+
+/*************
+subscribe 3
+*************/
+
+.subscribe-3 {
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('https://images.pexels.com/photos/631986/pexels-photo-631986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/***************
+faqpanel
+***************/
+
+.faq {
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-botton: 2rem;
+}
+
+.faq h2 {
+    text-align: center;
+}
+
+.faq-container {
+    width: 60%;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-weight: 600;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.faqpanel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+    content: '\02795'; /*Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/************
+Footer
+************/
+
+.footer {
+    height: 30vh;
+    margin: 0;
+    background: #34495e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto;
+}
+
+.container {
+    width: 80;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-cta {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-cta p {
+    margin: 0;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.footer-links {
+    text-align: left;
+}
+
+.footer-links li {
+    list-style: none;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+.footer-copyright {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2c3e50;
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.more-links {
+    cursor: pointer;
+}
